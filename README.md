@@ -12,6 +12,8 @@ File IIT_PhiR_tools.jl contain all functions needed to compute the Phi-ID atoms 
 
 File PHIID_atoms.jl run the analysis for a given data file. User should parse the index of the data file in the data directory.
 
-Analysis return a two files, each of one with a matrix containing:
-  Columns: Time Delayed Mutual Information, 16 columns contained the 16 information atoms of PhiID (only for biparitions), Size of one of the partitions, 2 columns with each partition Entropy.
-  Rows: Data for each bipartition analized.
+Analysis return a two files. Containing the following information
+    - First row indicating the Time Delayed Mutual Information of the full system (N discrete variables analyzed).
+    NxM matrix containing:
+    - Columns: 16 [Float32] columns contained the 16 information atoms of PhiID (valid for biparitions), [Int32] size of one of the partitions, 2 [Float32] columns with each partition Entropy.
+    - Rows: Data for each bipartition analized.
