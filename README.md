@@ -4,6 +4,6 @@ Julia implementation of Integrated Information Decomposition framework for discr
 
 - Implemented for analysis of two groups of data ordered in columns, requires user to indicate the columns related to first group and second.
 
-- The software is implemented to operate using parallel computation to explore any possible bipartition of each group of data. 
+- The software is implemented to operate using parallel computation through Julia threads.
 
 - Required Julia packedges are: Random,Distributions,Combinatorics,CausalityTools, DelimitedFiles.
