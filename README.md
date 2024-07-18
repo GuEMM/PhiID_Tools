@@ -2,7 +2,7 @@
 
 Julia implementation of Integrated Information Decomposition framework for discrete multivariate time series.
 
-- Implemented for analysis of two groups of data ordered in columns, requires user to indicate the columns related to first group and second group.
+- Implemented for analysis of two multi-variate variables ordered in columns, requires user to indicate the columns related to first and second variable.
 
 - The software operates using parallel computation through Julia threads.
 
