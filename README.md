@@ -18,9 +18,12 @@ Analysis return a two files. Containing the following information
     - Columns: 16 [Float32] columns contained the 16 information atoms of PhiID (valid for biparitions), [Int32] size of one of the partitions, 2 [Float32] columns with each partition Entropy.
     - Rows: Data for each bipartition analized.
 
-# Example notebook
+# EXAMPLE
 
-Presents the julia script for analysis of spiking time series of neurons from an EEG neuronal network model (Menesse y Torres, 2023).
+Presents the julia script for analysis of spiking time series of neurons from an EEG neuronal network model (Menesse y Torres, 2023), see https://github.com/GuEMM/EEG_model.git.
 
 The processing and visualization notebook present scripts for computing the statistics of Phi-ID analysis of each possible bipartition on each neuronal group. Also, include functions to compute measure such as Revised Integrated Information, Information Transfer, Information differentiation, Non-synergistic redundancy and others. See Menesse y Torres, 2023.
-    
+
+# REFERENCE
+
+Menesse G, Torres J. 2023. Information dynamics efficiently discriminates high γ-rhythms in EEG brain waves. DOI: https://arxiv.org/abs/2311.13977
