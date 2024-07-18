@@ -19,7 +19,8 @@ Analysis return a two files. Containing the following information
     - Rows: Data for each bipartition analized.
 
 # Example notebook
-    Presents the julia script for analysis of spiking time series of neurons from an EEG neuronal network model (Menesse y Torres, 2023).
 
-    The processing and visualization notebook present scripts for computing the statistics of Phi-ID analysis of each possible bipartition on each neuronal group. Also, include functions to compute measure such as Revised Integrated Information, Information Transfer, Information differentiation, Non-synergistic redundancy and others. See Menesse y Torres, 2023.
+Presents the julia script for analysis of spiking time series of neurons from an EEG neuronal network model (Menesse y Torres, 2023).
+
+The processing and visualization notebook present scripts for computing the statistics of Phi-ID analysis of each possible bipartition on each neuronal group. Also, include functions to compute measure such as Revised Integrated Information, Information Transfer, Information differentiation, Non-synergistic redundancy and others. See Menesse y Torres, 2023.
     
