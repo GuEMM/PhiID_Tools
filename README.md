@@ -24,6 +24,8 @@ Presents the julia script for analysis of spiking time series of neurons from an
 
 The processing and visualization notebook present scripts for computing the statistics of Phi-ID analysis of each possible bipartition on each neuronal group. Also, include functions to compute measure such as Revised Integrated Information, Information Transfer, Information differentiation, Non-synergistic redundancy and others. See Menesse y Torres, 2023.
 
+The notebook Example_computing_info_measures (in python), shows how to select the information atoms values obtained for each bipartition using the IIT_PhiR_tools.jl, and compute different information measures such as Integrated information theory, storage, non-synergistic redundancy and others.
+
 # REFERENCE
 
 Menesse G, Torres J. 2023. Information dynamics efficiently discriminates high γ-rhythms in EEG brain waves. DOI: https://arxiv.org/abs/2311.13977
